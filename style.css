@@ -1,0 +1,183 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f2f0;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+}
+
+.logo .highlight {
+    color: #007bff;
+}
+
+.nav-icons img {
+    margin: 0 15px;
+    width: 28px;
+    cursor: pointer;
+}
+
+.nav-icons img:last-child {
+    border-radius: 50%;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    padding: 20px 30px;
+    gap: 20px;
+}
+
+/* Left Section */
+.left-section, .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hello-card, .feedback-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hello-card h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.hello-card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.stats div {
+    text-align: center;
+    font-size: 14px;
+    color: #007bff;
+}
+
+.stats div:first-child {
+    border-right: 1px solid #ddd;
+    padding-right: 10px;
+}
+
+.stats div:not(:first-child) {
+    padding-left: 10px;
+}
+
+.feedback-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+
+/* Right Section */
+.instant-session {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.instant-session h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.instant-session input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.instant-session button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.instant-session button:hover {
+    background-color: #0056b3;
+}
+
+.sessions {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sessions h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+
+.sessions table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.sessions th, .sessions td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.sessions th {
+    background-color: #f2f2f2;
+    font-size: 14px;
+    color: #333;
+}
+
+.sessions td {
+    font-size: 14px;
+    color: #666;
+}
+
+.sessions td[colspan="4"] {
+    text-align: center;
+    color: #999;
+}
